@@ -18,10 +18,15 @@
 #' @export
 batDynamic <- function(t,y, params){
   with(c(as.list(y),params),{
-    ttor <- torporTime(Ta = Tb, pct.rh = pct.rh, areaPd = FungalArea, WNS = WNS,
+    # time in torpor
+    ttor <- torporTime(Ta = Ta, pct.rh = pct.rh, areaPd = FungalArea, WNS = WNS,
                            bat.params = params, fung.param = params)
-    tar <- arousalTime(Ta = Tb, bat.params = params)
-    tc <- coolTime(Ta = Tb, bat.params = params)
+    # energy cost for torpor
+    Etor = torporEnergy(Ta = Ta, WNS = WNS, areaPd = FungalArea,
+                        bat.params = params)
+    # time to arouse and cool
+    tar <- arousalTime(Ta = Ta, bat.params = params)
+    tc <- coolTime(Ta = Ta, bat.params = params)
     #tfl <- flyingTime(bat.params = params)
     teu <- euthermicTime(bat.params = params) #time inactive euthermic
     # change in TorporProp (pT)/dt
