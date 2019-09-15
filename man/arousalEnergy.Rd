@@ -44,3 +44,4 @@ Other Arousal Functions: \code{\link{arousalTime}},
 \author{
 Katie Haase
 }
+\concept{Arousal Functions}

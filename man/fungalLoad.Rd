@@ -48,3 +48,4 @@ fung.param <- fungalLoad(path.to.params = foo,
 \code{\link{fungalGrowth}},  \code{\link{fungalSelect}},
 \code{\link{scaleFungalGrowth}}
 }
+\concept{Fungal funcitons}

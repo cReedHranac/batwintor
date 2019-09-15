@@ -34,3 +34,8 @@ McKechnie & Wolf 2004 equation 3
 \author{
 Katie Haase
 }
+\concept{Arousal Functions
+
+ @seealso \code{\link{arousalTime}}, \code{\link{coolEnergy}},
+\code{\link{CalcEnergyArousal}}, \code{\link{euthermicEnergy}}
+\code{\link{flyingEnergy}}, \code{\link{flyingTime}}}

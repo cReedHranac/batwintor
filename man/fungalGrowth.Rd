@@ -36,3 +36,4 @@ plot(e, r, xlab = "Temp (C)", ylab = "Growth rate",
 \code{\link{fungalLoad}},  \code{\link{fungalSelect}},
 \code{\link{scaleFungalGrowth}}
 }
+\concept{Fungal functions}

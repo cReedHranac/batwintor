@@ -43,3 +43,4 @@ Other Arousal Functions: \code{\link{arousalEnergy}},
 \author{
 Katie Haase
 }
+\concept{Arousal Functions}

@@ -46,3 +46,4 @@ bingo <- hibernationModel(env.df, mylu.params, fung.ch)
 Other Model Engine: \code{\link{buildEnv}},
   \code{\link{hibernationModel}}
 }
+\concept{Model Engine}

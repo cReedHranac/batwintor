@@ -40,3 +40,4 @@ Other Torpor Functions: \code{\link{torporEnergy}}
 \author{
 Katie Haase
 }
+\concept{Torpor Functions}

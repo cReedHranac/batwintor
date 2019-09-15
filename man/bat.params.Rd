@@ -59,4 +59,5 @@ Haymen et al. 2016; Menzies et al. 2016
 
 Other Data: \code{\link{fung.params}}
 }
+\concept{Data}
 \keyword{datasets}

@@ -37,3 +37,4 @@ Other Arousal Functions: \code{\link{arousalEnergy}},
   \code{\link{arousalTime}}, \code{\link{coolEnergy}},
   \code{\link{flyingEnergy}}, \code{\link{flyingTime}}
 }
+\concept{Arousal Functions}

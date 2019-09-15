@@ -36,3 +36,4 @@ plot(rh, r, xlab = "Relative humidity (\%)", ylab = "Growth Rate",
 
 Other Fungal Functions: \code{\link{fungalSelect}}
 }
+\concept{Fungal Functions}

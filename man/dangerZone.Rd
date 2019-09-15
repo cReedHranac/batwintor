@@ -40,3 +40,4 @@ Other Plot Functions: \code{\link{survivalMultiplot}},
 \author{
 L. Cain, K. Loggins
 }
+\concept{Plot Functions}
