@@ -19,6 +19,8 @@ microSpace <- function(mod.df, save.name = NULL, ...){
                max.inf = ~hour.to.month(max(time*surv.inf))) %>%
     mutate_(diff = ~(max.inf - max.null)) %>%
     tidyr::gather(key = "INF", value = "Months", starts_with("max"), factor_key = T)
+  ribon.labels <- c("Uninfected", "Infected")
+  names(ribon.labels) <- c("max.null", "max.inf")
 
 
 
@@ -32,7 +34,7 @@ microSpace <- function(mod.df, save.name = NULL, ...){
     scale_y_continuous(expand = c(0,0))+
     geom_contour(binwidth = 1,
                  colour = "grey15") +
-    ggtitle("Micro habitat selection") +
+    ggtitle("Microclimate selection") +
     xlab("Temperature (C)") +
     ylab("Relative Humidity (%)")+
     theme_minimal()+
@@ -43,7 +45,7 @@ microSpace <- function(mod.df, save.name = NULL, ...){
           legend.key.size = unit(42, "points"),
           legend.title = element_text(size = 16,  family="serif"),
           legend.text = element_text(size = 16,  family="serif")) +
-    facet_wrap(~INF, ncol = 2)
+    facet_wrap(~INF, ncol = 2, labeller = labeller(INF = ribon.labels))
 
   if(!is.null(save.name)){
     ggsave( filename = save.name, ...)
