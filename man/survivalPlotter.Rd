@@ -37,3 +37,4 @@ Other Plot Functions: \code{\link{dangerZone}},
   \code{\link{survivalMultiplot}},
   \code{\link{survivalRaster}}
 }
+\concept{Plot Functions}

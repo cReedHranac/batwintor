@@ -4,8 +4,8 @@
 \alias{survivalHistogram}
 \title{Creats histograms displaying the model resulst from the species distribution}
 \usage{
-survivalHistogram(surv.stk, dist.map, species.name, nights, save.name = NULL,
-  ...)
+survivalHistogram(surv.stk, dist.map, species.name, nights,
+  save.name = NULL, ...)
 }
 \arguments{
 \item{surv.stk}{raster result stack from \code{\link{survivalRaster}}}
@@ -38,3 +38,4 @@ updates and build because this is unnecessairy convaluted.
 \seealso{
 \code{\link{dangerZone}}; \code{\link{survivalMultiplot}}; \code{\link{survivalPlotter}}
 }
+\concept{PlotFunctions}

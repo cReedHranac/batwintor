@@ -57,3 +57,4 @@ m.env <- buildEnv(temp = c(1,100),
 Other Model Engine: \code{\link{batDynamic}},
   \code{\link{hibernationModel}}
 }
+\concept{Model Engine}

@@ -48,3 +48,4 @@ fung.ver  <- fungalSelect("Verant")
 
 Other Fungal Functions: \code{\link{scaleFungalGrowth}}
 }
+\concept{Fungal Functions}

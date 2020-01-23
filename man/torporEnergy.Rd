@@ -42,3 +42,4 @@ Other Torpor Functions: \code{\link{ewl}}
 \author{
 Katie Haase
 }
+\concept{Torpor Functions}
