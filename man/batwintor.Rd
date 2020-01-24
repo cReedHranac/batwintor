@@ -4,14 +4,17 @@
 \name{batwintor}
 \alias{batwintor}
 \alias{batwintor-package}
-\title{batwintor: A pacakge for computing the metabolic costs of hibernation on bats
-with additional tools to address the impact of White-nose Syndrome on North
-American species.}
+\title{batwintor: A pacakge for computing the metabolic costs of hibernation on bats.}
 \description{
-The batwintor package includes 4 groups of functions, \code{Arrousal
-Functions}, \code{Torpor Functions}, \code{Model Functions}, and \code{Plot
-Functions}. In addition there are 3 data sets built into the package that
-allow you to explore the majorit of the packages functions.
+The batwintor package is designed to use the principals of hibernation physiology
+to compute the total energentic requirements of hibernation for bats. This package
+also includes tools to address how these energetic costs may change when
+hibernators are infected with the etiological agent of White-nose syndrome
+\emph{Pseudogymnoascus destructans}. This package includes 4 primary groups
+of functions, \code{Arrousal Functions}, \code{Torpor Functions},
+\code{Model Functions}, and \code{Plot Functions}. In addition there are 3
+data sets built into the package that allow you to explore the majority of
+ the packages functions.
 }
 \section{Data}{
 

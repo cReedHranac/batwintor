@@ -9,5 +9,5 @@ if("fung.params.rda" %!in% list.files("data/")){
   fung.params <- cbind(beta1 = beta1, beta2 = beta2, beta3 = beta3, mu1 = mu1,
                        mu2 = mu2)
   rownames(fung.params) <- c("Chaturvedi", "Verant")
-  devtools::use_data(fung.params, overwrite = T)
+  usethis::use_data(fung.params, overwrite = T)
 }
