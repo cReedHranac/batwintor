@@ -50,11 +50,11 @@ day.to.hour <- function(x){
 #' @param mW energy in milliWatts
 #' @return energy in ml02/hr
 #' @export
-mW_mlO2hr <- function(mW){
-  Watts = mW*0.001
-  Jhr = Watts * 60
-  mO2hr = Jhr*20.1
-  return(mO2hr)
+mW_mlO2hr <- function (mW) {
+Watts = mW * 0.001
+Jhr = Watts * 3600
+mO2hr = Jhr / 20.1
+return(mO2hr)
 }
 
 #' \code{k.to.c}
